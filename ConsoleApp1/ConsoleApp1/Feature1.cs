@@ -8,9 +8,12 @@ namespace ConsoleApp1
 {
     class Feature1
     {
-        public int add(int a,int b)
+        public int add()
         {
-            return a + b;
+            int a = 5;
+            int b = 10;
+            int sum = a + b;
+            return sum;
         }
     }
 }
